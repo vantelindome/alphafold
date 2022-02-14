@@ -10,7 +10,7 @@ export PATH=/center/local/app/x86/AlphaFold/v2.1.2/alphafold/bin:${PATH}
 # Specify a fasta file whose structure you want to predict.
 FASTAFILE="$HOME/cas9/alphafold/input/4UN3.fasta"
 # Specify a folder to save output files
-OUTPUTDIR="$HOME/cas9/output"
+OUTPUTDIR="$HOME/work/output/alphafold/"
 # You can restrict the structures that AlphaFold selects as templates
 # before the release date specified as DATE
 DATE="2099-07-14"
