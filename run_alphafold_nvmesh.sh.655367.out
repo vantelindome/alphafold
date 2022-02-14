@@ -1,0 +1,11 @@
+gcc(6):ERROR:105: Unable to locate a modulefile for 'gcc/10.2.0'
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'amber/19.0'
+ModuleCmd_Load.c(213):ERROR:105: Unable to locate a modulefile for 'python/3.7.7'
+I0214 17:12:06.491905 47903906494592 templates.py:857] Using precomputed obsolete pdbs /beegfs/a49979a/alphafold/db-v2.1/pdb_mmcif/obsolete.dat.
+I0214 17:12:06.991141 47903906494592 xla_bridge.py:230] Unable to initialize backend 'tpu_driver': NOT_FOUND: Unable to find driver in registry given worker: 
+I0214 17:12:07.507913 47903906494592 xla_bridge.py:230] Unable to initialize backend 'tpu': INVALID_ARGUMENT: TpuPlatform is not available.
+I0214 17:12:13.791754 47903906494592 run_alphafold.py:397] Have 5 models: ['model_1', 'model_2', 'model_3', 'model_4', 'model_5']
+I0214 17:12:13.791973 47903906494592 run_alphafold.py:414] Using random seed 144721495221021778 for the data pipeline
+I0214 17:12:13.792193 47903906494592 run_alphafold.py:163] Predicting 4UN3
+I0214 17:12:13.803470 47903906494592 jackhmmer.py:133] Launching subprocess "/center/local/app/x86/AlphaFold/v2.1.2/alphafold/alphafold-conda/bin/jackhmmer -o /dev/null -A /tmp/tmpnhssn589/output.sto --noali --F1 0.0005 --F2 5e-05 --F3 5e-07 --incE 0.0001 -E 0.0001 --cpu 8 -N 1 /home/z44548r/cas9/alphafold/input/4UN3.fasta /beegfs/a49979a/alphafold/db-v2.1/uniref90/uniref90.fasta"
+I0214 17:12:13.877150 47903906494592 utils.py:36] Started Jackhmmer (uniref90.fasta) query
