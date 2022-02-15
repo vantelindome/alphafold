@@ -26,3 +26,6 @@ alphafold_nvmesh --fasta_paths=${FASTAFILE} \
                                  --max_template_date=${DATE}
 
 echo "job end time  :" `date +'%Y%m%d %H:%M:%S'` >> $OUTPUTDIR/time.log
+
+FILE=${FASTAFILE%.*}
+rm ${OUTPUTDIR}/${FILE}/result_model_*.pkl
